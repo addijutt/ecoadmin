@@ -1,3 +1,120 @@
-.mb-10{
-    margin-top: 80px;
+.block {
+    margin: 0 0 10px;
+    padding: 20px 15px 1px;
+    background-color: #fff;
+    border: 1px solid #dbe1e8;
+}
+.block-title {
+    margin: -20px -15px 20px;
+    background-color: #f9fafc;
+    border-bottom: 1px solid #eaedf1;
+}
+.block-options {
+    margin: 0 6px;
+    line-height: 37px;
+    min-height: 40px;
+}
+.pull-right {
+    float: right !important;
+}
+.block-title h2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 10px 16px 7px;
+    font-weight: 400;
+}
+.block-options .btn {
+    border-radius: 15px;
+    padding-right: 8px;
+    padding-left: 8px;
+    min-width: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    margin: 1px 0;
+}
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.btn-default {
+    border-color: #dbe1e8;
+    color: #394263;
+}
+.btn-default.btn-alt {
+    background-color: #fff;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table>thead:first-child>tr:first-child>td {
+    border-top: 0;
+}
+.table.table-vcenter td {
+    vertical-align: middle;
+}
+.table thead>tr>td{
+    padding: 8px;
+    line-height: 1.42857143;
+    padding-top: 14px;
+    border-color: #eaedf1;
+    padding-bottom: 14px;
+}
+input[type="checkbox"] {
+    margin: 4px 0 0;
+    line-height: normal;
+}
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.btn-group>.btn:first-child {
+    margin-left: 0;
+}
+.btn-group>.btn {
+    position: relative;
+    float: left;
+}
+.btn-group-sm>.btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-default {
+    background-color: #f1f3f6;
+    border-color: #dbe1e8;
+    color: #394263;
+}
+.text-muted a.text-muted {
+    color: #999;
+}
+a{
+    color: #1bbae1;
+}
+@media screen and (min-width: 768px){
+.block {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.block-title{
+    margin-left: -20px;
+    margin-right: -20px;
+}
 }

@@ -11,6 +11,7 @@ import { NotificationComponent } from './notification/notification.component';
 import { HomeComponent } from './home/home.component';
 import { MailboxComponent } from './mailbox/mailbox.component';
 import { OrdersModule } from './orders/orders.module';
+import { ProfileComponent } from './profile/profile.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'dash',  component:DashboardComponent},
   { path: '',  redirectTo: '/dash', pathMatch: 'full' }, 
   {path: 'mailbox' , component: MailboxComponent },
+  {path: 'profile' , component: ProfileComponent },
   {path: 'settings' , component: SettingsComponent },
   {path: 'reports' , component: ReportsComponent },
   {path: 'requests' , component: RequestsComponent },

@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 import { MailboxComponent } from './mailbox/mailbox.component';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { ProfileComponent } from './profile/profile.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     ShipmentComponent,
     NotificationComponent,
     HomeComponent,
-    MailboxComponent
+    MailboxComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

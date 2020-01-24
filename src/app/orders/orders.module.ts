@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { OrdersRoutingModule } from './orders-routing.module';
 import { ListComponent } from './list/list.component';
-import { ProductsRoutingModule } from './products-routing.module';
 import { AddComponent } from './add/add.component';
 import { ViewComponent } from './view/view.component';
 
@@ -11,7 +11,7 @@ import { ViewComponent } from './view/view.component';
   declarations: [ListComponent, AddComponent, ViewComponent],
   imports: [
     CommonModule,
-    ProductsRoutingModule
+    OrdersRoutingModule
   ]
 })
-export class ProductsModule { }
+export class OrdersModule { }

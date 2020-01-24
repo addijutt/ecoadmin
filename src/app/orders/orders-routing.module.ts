@@ -15,7 +15,6 @@ const routes: Routes = [
       {path: '', component: ListComponent }, 
       {path: 'add' ,component: AddComponent },
       {path: 'view' , component: ViewComponent}
-
     //   {path: 'add/:id' ,component: AddComponent },
     //   { path: ':id' , component: ProfileComponent}
     ]
@@ -26,4 +25,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ProductsRoutingModule { }
+export class OrdersRoutingModule { }

@@ -13,6 +13,10 @@
 .bg-clr{
     background: #888 !important;
 }
+.text-clr{
+    color: #888 !important;
+}
+
 a.widget {
     display: block;
     -webkit-transition: all .2s ease-out;
@@ -21,6 +25,7 @@ a.widget {
 .widget {
     margin-bottom: 10px;
 }
+
 a {
     color: #161616;
     text-decoration: none;

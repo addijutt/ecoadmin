@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { OrdersComponent } from './orders/orders.component';
 import { ReportsComponent } from './reports/reports.component';
 import { SettingsComponent } from './settings/settings.component';
 import { RequestsComponent } from './requests/requests.component';
@@ -22,7 +21,6 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     DashboardComponent,
     HeaderComponent,
     SidebarComponent,
-    OrdersComponent,
     ReportsComponent,
     SettingsComponent,
     RequestsComponent,

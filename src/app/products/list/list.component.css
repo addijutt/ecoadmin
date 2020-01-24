@@ -1,3 +1,80 @@
-.mb-10{
-    margin-top: 80px;
+
+/* cards */
+
+.card-common {
+    box-shadow: 1px 2px 5px #999;
+    transition: all .4s;
+}
+
+.card-common:hover {
+    box-shadow: 2px 3px 15px #999999;
+    transform: translateY(-1px);
+}
+
+
+
+a.widget {
+    display: block;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+.widget {
+    margin-bottom: 10px;
+}
+a {
+    color: #161616;
+    text-decoration: none;
+}
+.widget .widget-extra {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+}
+.widget-extra-full {
+    position: relative;
+    padding: 15px;
+}
+.themed-background {
+    background-color: #161616;
+}
+.widget .widget-content-light {
+    color: #fff;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h4, .h4 {
+    font-size: 18px;
+    line-height: 1.1;
+}
+.widget .widget-extra-full {
+    position: relative;
+    padding: 15px;
+}
+.animation-expandOpen {
+    animation-name: expandOpen;
+    -webkit-animation-name: expandOpen;
+    animation-duration: 1.2s;
+    -webkit-animation-duration: 1.2s;
+}
+.animation-expandOpen, .animation-slideExpandUp {
+    animation-timing-function: ease-out;
+    visibility: visible!important;
+}
+.h2 {
+    font-size: 30px;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    color: inherit;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 768px){
+    .widget {
+    margin-bottom: 20px;
+}
 }

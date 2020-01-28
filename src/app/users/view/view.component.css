@@ -1,0 +1,33 @@
+.block {
+    margin: 0px;
+    padding: 20px 15px 1px;
+    background-color: #fff;
+}
+.block-title {
+    margin: -20px -15px 20px;
+    background-color: #f9fafc;
+    border-bottom: 1px solid #eaedf1;
+}
+.block-title h2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.block-title h2{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 10px 16px 7px;
+    font-weight: 400;
+}
+h4{
+    font-weight: 300;
+}
+.abc{
+    font-weight: 600;
+}
+input[type=checkbox] {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 5px;
+}

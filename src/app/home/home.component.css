@@ -4,6 +4,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: auto;
+
 }
 /* navbar */
 .sidebar {
@@ -13,7 +16,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 5px 7px 20px #999;
-    
+    overflow-y: auto;
+    overflow-x: hidden;
+
 }
 
 .bottom-border {

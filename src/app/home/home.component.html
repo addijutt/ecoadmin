@@ -10,7 +10,7 @@
                 <div class="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
                     <a href="#" class="navbar-brand text-white
                      d-block mx-auto text-center py-3 mb-4 bottom-border">
-                     <img src="../../assets/logo1.png" height="20" class="mr-3">
+                     <img src="../../assets/logo1.png" height="17" class="mr-3">
                         </a>
                     <div class="bottom-border pb-3">
                         <img src="../../assets/abdul.PNG" width="50px" 
@@ -26,10 +26,10 @@
                              <i class="fas fa-user text-white fa-lg mr-3"></i>Orders</a>
                         </li>
                         <li class="nav-item"><a [routerLink]="['/products']" class="nav-link text-white p-2 mb-3 sidebar-link">
-                            <i class="fas fa-user text-white fa-lg mr-3"></i>Products</a>
+                            <i class="fas fa-shopping-cart text-white fa-lg mr-3"></i>Products</a>
                        </li>
                         <li class="nav-item">
-                            <a      class="nav-link text-white p-2 mb-3 sidebar-link">
+                            <a [routerLink]="['/reports']"     class="nav-link text-white p-2 mb-3 sidebar-link">
                                 <i class="fas fa-file-alt text-white fa-lg mr-3"></i>Reports</a>
                          </li>
                          <li class="nav-item">
@@ -40,10 +40,10 @@
                             <a [routerLink]="['/blog']"   class="nav-link text-white p-2 mb-3 sidebar-link">
                                 <i class="fas fa-blog text-white fa-lg mr-3"></i>Blogs</a>
                          </li>
-                         <li class="nav-item">
+                         <!-- <li class="nav-item">
                             <a href="" class="nav-link text-white p-2 mb-3 sidebar-link">
                                 <i class="fas fa-chart-bar text-white fa-lg mr-3"></i>Shipment</a>
-                         </li>
+                         </li> -->
                          <li class="nav-item">
                             <a href="" class="nav-link text-white p-2 mb-3 sidebar-link">
                                 <i class="fas fa-cog text-white fa-lg mr-3"></i>Settings</a>
@@ -51,6 +51,10 @@
                          <li class="nav-item">
                             <a [routerLink]="['/requests']" class="nav-link text-white p-2 mb-3 sidebar-link">
                                 <i class="fas fa-wrench text-white fa-lg mr-3"></i>Requests</a>
+                         </li>
+                         <li class="nav-item">
+                            <a [routerLink]="['/users']" class="nav-link text-white p-2 mb-3 sidebar-link">
+                                <i class="fas fa-users text-white fa-lg mr-3"></i>Users</a>
                          </li>
                          <!-- <li class="nav-item">
                             <a href="" class="nav-link text-dark p-2 mb-3 sidebar-link">

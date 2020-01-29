@@ -4,7 +4,10 @@
             <div class="row">
                 <div class="col-lg-1 col-md-1 col-sm-1"></div>
                 <div class="col-lg-10 col-md-10 col-sm-12">
-                    <h2>Blog List</h2>
+                    <div class="d-flex">
+                        <h2>Blog List</h2>
+                        <button type="button" [routerLink]="['create']" class="btn btn-dark ml-auto btn-sm">Add New</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -29,7 +32,7 @@
                     </div>
                     <div class="footer">
                         <div class="actions">
-                            <a href="javascript:void(0);" class="btn btn-outline-secondary">Continue Reading</a>
+                            <a [routerLink]="['detail']" class="btn btn-outline-secondary">Continue Reading</a>
                         </div>
                         <ul class="stats">
                             <li><a href="javascript:void(0);">General</a></li>
@@ -48,7 +51,7 @@
                             <h4 class="name">John Doe</h4>
                             <h5 class="time">2h</h5>
                         </div>
-                        <h3><a href="blog-details.html">All photographs are accurate</a></h3>
+                        <h3><a href="javascript:void(0)">All photographs are accurate</a></h3>
                         <div class="img-post">
                             <img class="d-block img-fluid" src="../../../assets/blog.jpg"
                                 alt="First slide">
@@ -59,7 +62,7 @@
                     </div>
                     <div class="footer">
                         <div class="actions">
-                            <a href="javascript:void(0);" class="btn btn-outline-secondary">Continue Reading</a>
+                            <a [routerLink]="['detail']" class="btn btn-outline-secondary">Continue Reading</a>
                         </div>
                         <ul class="stats">
                             <li><a href="javascript:void(0);">General</a></li>
@@ -78,7 +81,7 @@
                             <h4 class="name">John Doe</h4>
                             <h5 class="time">2h</h5>
                         </div>
-                        <h3><a href="blog-details.html">All photographs are accurate</a></h3>
+                        <h3><a href="javascript:void(0)">All photographs are accurate</a></h3>
                         <div class="img-post">
                             <img class="d-block img-fluid" src="../../../assets/blog.jpg"
                                 alt="First slide">
@@ -89,7 +92,7 @@
                     </div>
                     <div class="footer">
                         <div class="actions">
-                            <a href="javascript:void(0);" class="btn btn-outline-secondary">Continue Reading</a>
+                            <a [routerLink]="['detail']" class="btn btn-outline-secondary">Continue Reading</a>
                         </div>
                         <ul class="stats">
                             <li><a href="javascript:void(0);">General</a></li>
@@ -108,7 +111,7 @@
                             <h4 class="name">John Doe</h4>
                             <h5 class="time">2h</h5>
                         </div>
-                        <h3><a href="blog-details.html">All photographs are accurate</a></h3>
+                        <h3><a href="javascript:void(0)">All photographs are accurate</a></h3>
                         <div class="img-post">
                             <img class="d-block img-fluid" src="../../../assets/blog.jpg"
                                 alt="First slide">
@@ -119,7 +122,7 @@
                     </div>
                     <div class="footer">
                         <div class="actions">
-                            <a href="javascript:void(0);" class="btn btn-outline-secondary">Continue Reading</a>
+                            <a [routerLink]="['detail']" class="btn btn-outline-secondary">Continue Reading</a>
                         </div>
                         <ul class="stats">
                             <li><a href="javascript:void(0);">General</a></li>

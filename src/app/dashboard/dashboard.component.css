@@ -5,7 +5,20 @@
     box-shadow: 1px 2px 5px #999;
     transition: all .4s;
 }
-
+.btn{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #161616;
+    border-color: #161616;
+}
+.py-10{
+    padding-top: .6rem !important;
+    padding-bottom: .6rem !important;
+}
 .card-common:hover {
     box-shadow: 2px 3px 15px #999999;
     transform: translateY(-1px);

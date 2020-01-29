@@ -27,7 +27,7 @@ a.widget {
 }
 
 a {
-    color: #161616;
+    color: #1bbae1;
     text-decoration: none;
 }
 .widget .widget-extra {
@@ -77,9 +77,60 @@ h2{
     color: inherit;
     font-weight: 300;
 }
-
+.block {
+    margin: 0px;
+    padding: 20px 15px 1px;
+    background-color: #fff;
+}
+.block-title {
+    margin: -20px -15px 20px;
+    background-color: #f9fafc;
+    border-bottom: 1px solid #eaedf1;
+}
+.block-title h2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.block-title h2{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 10px 16px 7px;
+    font-weight: 400;
+}
+h4{
+    font-weight: 300;
+}
+.table {
+    margin-bottom: 20px;
+}
+.label-primary {
+    background-color: #1bbae1;
+}
+.label {
+    padding: 1px 4px;
+}
+.label {
+    font-weight: 400;
+    font-size: 90%;
+    border-radius: 3px;
+}
+.label-success {
+    background-color: #27ae60;
+}
+.label-danger {
+    background-color: #e74c3c;
+}
+tbody tr td {
+    color: #394263 !important;
+}
 @media screen and (min-width: 768px){
     .widget {
     margin-bottom: 20px;
+}
+.block-title{
+    margin-left: -15px;
+    margin-right: -15px;
 }
 }

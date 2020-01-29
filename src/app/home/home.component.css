@@ -21,6 +21,19 @@ body {
 
 }
 
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgb(212, 203, 203);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #727272; 
+    border-radius: 10px;
+  }
 .bottom-border {
     border-bottom: 1px groove #eee;
 }
